@@ -1,5 +1,9 @@
 function Header() {
-  return <header className="bg-danger">hello react</header>;
+  return (
+    <header style={{ color: "aqua" }} className="bg-danger">
+      hello react
+    </header>
+  );
 }
 
 export default Header;
